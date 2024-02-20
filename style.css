@@ -1,0 +1,24 @@
+#items {
+  margin: 15px;
+  font-size: 20px;
+  color: grey;
+}
+
+#root_2 > ul {
+  display: none;
+  list-style-image: url("icons8.png");
+}
+#root_3 > ul {
+  display: none;
+}
+#root_8 > ul {
+  display: none;
+}
+.block {
+  display: block !important;
+}
+#root_2 > span,
+#root_3 > span,
+#root_8 > span {
+  cursor: pointer;
+}
